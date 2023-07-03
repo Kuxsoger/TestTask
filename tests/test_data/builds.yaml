@@ -1,0 +1,18 @@
+builds:
+  - name: test_build_1
+    tasks: 
+    - test_task_1
+    - test_task_2
+  - name: test_build_2
+    tasks:
+    - test_task_4
+    - test_task_5
+  - name: test_build_3
+    tasks:
+    - test_task_1
+  - name: test_build_4
+    tasks:
+    - test_task_4
+    - test_task_6
+    - test_task_8
+    - test_task_10

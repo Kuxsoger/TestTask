@@ -1,0 +1,6 @@
+tasks:
+  - name: test_task_1
+    dependencies: []
+  - name: task_without_depenencies_data
+  - wrong_name: "Wrong Name"
+    dependencies: [test_task_1]

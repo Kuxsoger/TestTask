@@ -1,0 +1,21 @@
+tasks:
+  - name: test_task_1
+    dependencies: []
+  - name: test_task_2
+    dependencies: [test_task_3]
+  - name: test_task_3
+    dependencies: []
+  - name: test_task_4
+    dependencies: [test_task_6]
+  - name: test_task_5
+    dependencies: [test_task_4]
+  - name: test_task_6
+    dependencies: []
+  - name: test_task_7
+    dependencies: []
+  - name: test_task_8
+    dependencies: [test_task_6]
+  - name: test_task_9
+    dependencies: []
+  - name: test_task_10
+    dependencies: [test_task_2, test_task_8, test_task_9]

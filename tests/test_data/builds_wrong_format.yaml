@@ -1,0 +1,9 @@
+builds:
+  - name: "Name"
+    tasks:
+    - test_task_1
+    - test_task_2
+  - name: "Without tasks"
+  - wrong_name: "Wrong_name"
+    tasks:
+    - test_task_1 
